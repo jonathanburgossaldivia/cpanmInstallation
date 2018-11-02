@@ -7,7 +7,7 @@ if [ -f .bashrc ]; then
 	echo "$text" >>~/.bashrc;
     source ~/.bashrc ;
     else 
-    	echo "$text" >>~/.profile;
+    	echo -e "\n$text" >>~/.profile;
     	source ~/.profile;
 fi;
 echo "END"
