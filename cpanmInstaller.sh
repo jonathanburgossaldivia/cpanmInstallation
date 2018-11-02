@@ -4,7 +4,7 @@ wget -qO cpanm.pl "$cpanm" ||  curl -o cpanm.pl "$cpanm";
 perl cpanm.pl -l$HOME/perl5 App::cpanminus local::lib ;
 
 if [ -f .bashrc ]; then 
-	echo "$text" >>~/.bashrc;
+	echo -e "\n$text" >>~/.bashrc;
     source ~/.bashrc ;
     else 
     	echo -e "\n$text" >>~/.profile;
