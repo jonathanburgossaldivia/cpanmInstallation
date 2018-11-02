@@ -10,4 +10,4 @@ if [ -f .bashrc ]; then
     	echo -e "\n$text" >>~/.profile;
     	source ~/.profile;
 fi;
-echo "END"
+echo "Script finished."
